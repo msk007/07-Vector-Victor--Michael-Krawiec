@@ -14,7 +14,7 @@ def add_vector(vector1,vector2):
     return addition
 
 
-def vector_sum():
+def vector_sub():
     raise_exception(vector1, vector2)
     subtraction = [x - y for x, y in zip(vector1, vector2)]
     return subtraction
